@@ -56,7 +56,7 @@ public class OperacoesContoller {
 	public void matapPID(String so) {
 		if(so.contains("Windows")){
 			try {
-				int pid = Integer.parseInt(JOptionPane.showInputDialog("Digíte o PID: "));
+				int pid = Integer.parseInt(JOptionPane.showInputDialog("Digite o PID: "));
 				Runtime.getRuntime().exec("TASKKILL /PID " + pid);
 			} 
 			catch (IOException e) {
@@ -78,7 +78,7 @@ public class OperacoesContoller {
 	public void matapnome(String so) {
 		if(so.contains("Windows")){
 			try {
-				String nome = JOptionPane.showInputDialog("Dig�te o nome: ");
+				String nome = JOptionPane.showInputDialog("Digite o nome: ");
 				Runtime.getRuntime().exec("TASKKILL /IM " + nome);
 			} 
 			catch (IOException e) {
