@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		OperacoesContoller oc = new OperacoesContoller();
 		String so = oc.So();
-		int resp = Integer.parseInt(JOptionPane.showInputDialog(" Digíte:\n "
+		int resp = Integer.parseInt(JOptionPane.showInputDialog(" Digite:\n "
 				+ "1 para Listar procesos\n 2 para Matar por PID"
 				+ "\n 3 para Matar por nome"));
 		switch(resp){
@@ -26,7 +26,7 @@ public class Main {
 				break;
 			
 			default:
-				System.out.println("Opção inválida");
+				System.out.println("Opï¿½ï¿½o invï¿½lida");
 		}
 		
 	}
